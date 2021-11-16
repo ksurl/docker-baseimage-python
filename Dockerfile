@@ -1,4 +1,4 @@
-FROM        python:3.9-alpine
+FROM        python:3.10.0-alpine
 
 LABEL       org.opencontainers.image.source="https://github.com/ksurl/docker-baseimage-python"
 
