@@ -1,4 +1,4 @@
-FROM        python:3.10.4-alpine3.16
+FROM        python:3.11.2-alpine3.17
 
 LABEL       org.opencontainers.image.source="https://github.com/ksurl/docker-baseimage-python"
 
@@ -6,11 +6,7 @@ LABEL       maintainer="ksurl"
 
 ENV         TZ="UTC"
 
-RUN         echo "**** install build packages ****" && \
-            apk add --no-cache --virtual=build-dependencies \
-                curl \
-                tar && \
-            echo "**** install packages ****" && \
+RUN         echo "**** install packages ****" && \
             apk add --no-cache \
                 bash \
                 s6-overlay \
@@ -24,7 +20,6 @@ RUN         echo "**** install build packages ****" && \
             echo "**** disable root login ****" && \
             sed -i -e 's/^root::/root:!:/' /etc/shadow && \
             echo "**** cleanup ****" && \
-            apk del --purge build-dependencies && \
             rm -rf /tmp/* /var/cache/apk/*
 
 COPY        root/ /
