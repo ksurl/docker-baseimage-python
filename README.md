@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/badge/Docker%20Hub--blue)](https://hub.docker.com/r/ksurl/baseimage-python-alpine) [![](https://img.shields.io/badge/GitHub%20Container%20Registry--yellow)](https://github.com/users/ksurl/packages/container/package/baseimage-python-alpine)
 
-[![](https://img.shields.io/github/v/tag/ksurl/docker-baseimage-python-alpine?label=image%20version&logo=docker)](https://hub.docker.com/r/ksurl/baseimage-python-alpine) [![](https://img.shields.io/docker/image-size/ksurl/baseimage-python-alpine/latest?color=lightgrey&logo=Docker)]() [![](https://img.shields.io/github/workflow/status/ksurl/docker-baseimage-python-alpine/build?label=build&logo=Docker)](https://github.com/ksurl/docker-baseimage-python-alpine/actions?query=workflow%3Abuild)
+[![](https://img.shields.io/github/v/tag/ksurl/docker-baseimage-python-alpine?label=image%20version&logo=docker)](https://hub.docker.com/r/ksurl/baseimage-python-alpine) [![](https://img.shields.io/docker/image-size/ksurl/baseimage-python-alpine/latest?color=lightgrey&logo=Docker)]() [![](https://img.shields.io/github/actions/workflow/status/ksurl/docker-baseimage-python-alpine/build.yml?label=build&logo=Docker)](https://github.com/ksurl/docker-baseimage-python-alpine/actions/workflow/build.yml?query=workflow%3Abuild)
 
 * Based on python:alpine
 * bash
